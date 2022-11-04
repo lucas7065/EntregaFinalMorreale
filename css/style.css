@@ -1,28 +1,36 @@
-.card-border{
-    border: solid 10px white;
-    border-radius: 20px;
-    overflow: hidden;
-    transition: all ease-out 0.2s;
-}
+* {
+  margin: 0;
+  padding: 0; }
 
-.card-border:hover{
-    transform: scale(1.05);
-}
+/*  HEADER  */
+/*  MAIN  */
+.card-border {
+  border: solid 10px white;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all ease-out 0.2s; }
 
-#titulos{
-    background-color: black;
-    color: white;
-}
+.card-border:hover {
+  transform: scale(1.05); }
 
-#fondo-osho{
-    background-color: #F3C5DF;
-    color: white;
-}
+#titulos {
+  background-color: black;
+  color: white; }
 
-#fondo-osho-light{
-    background-color: #FDE0F0;
-}
+#fondo-osho {
+  background-color: #F3C5DF;
+  color: white; }
 
-div ul li a:hover{
-    color: white !important;
-}
+#fondo-osho-light {
+  background-color: #FDE0F0; }
+
+div ul li a:hover {
+  color: white !important; }
+
+#centrar {
+  text-align: center;
+  align-items: center; }
+
+/*  FOOTER  */
+#footer-redes-color {
+  color: black; }
