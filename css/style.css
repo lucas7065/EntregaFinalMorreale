@@ -9,11 +9,20 @@
     transform: scale(1.05);
 }
 
-#fondo-osho{
+#titulos{
     background-color: black;
     color: white;
 }
 
-#color-osho-light{
+#fondo-osho{
+    background-color: #F3C5DF;
+    color: white;
+}
+
+#fondo-osho-light{
     background-color: #FDE0F0;
+}
+
+div ul li a:hover{
+    color: white !important;
 }

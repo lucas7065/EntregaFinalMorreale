@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/images/favicon_osho.ico"/>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Osho Regalos</title>
@@ -13,7 +14,7 @@
     <header>
 
         <!--NAV-->
-        <nav class="navbar navbar-expand-sm navbar-dark" id="fondo-osho">
+        <nav class="navbar navbar-expand-sm navbar-dark" id="titulos">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="./assets/images/logo.png" alt="logo para nav" width="100px">
@@ -29,17 +30,18 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a class="nav-link" href="./index.html">INICIO</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./index.html">PRODUCTOS</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./index.html">COMO COMPRAR </a></li>
-                        <li class="nav-item"><a class="nav-link" href="./index.html">QUIENES SOMOS</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./index.html">CONTACTO</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/productos.html">PRODUCTOS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/como_comprar.html">COMO COMPRAR </a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/quienes_somos.html">QUIENES SOMOS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/contacto.html">CONTACTO</a></li>
                     </ul>
                 </div>
                 
             </div>
         </nav>
+
 
         <div class="carousel slide" id="mainSlider" data-ride="carousel">
             <div class="carousel-inner">
@@ -60,9 +62,9 @@
     <main>
 
         <div class="productos">
-            <div class="container-fluid-md p-5" id="color-osho-light">
+            <div class="container-fluid-md p-5" id="fondo-osho-light">
                 <div class="row pb-5">
-                    <h3 class="text-center" id="fondo-osho">PRODUCTOS DESTACADOS</h3>
+                    <h3 class="text-center" id="titulos">PRODUCTOS DESTACADOS</h3>
                 </div>
 
                 <div class="row">
@@ -71,8 +73,14 @@
                             <img src="./assets/images/mate-pampa-xl.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">MATE PAMPA XL</h5>
-                              <p class="card-text">Texto informativo!!!</p>
-                              <a href="./pages/productos.html" class="btn btn-primary">Ver producto</a>
+                              <p class="card-text">Mate Pampa® ORIGINAL
+                                <br>
+                                COLORES: Caramel, Verde Militar, Borgoña, Blanco y Negro
+                                
+
+                                
+
+                                </p>
                             </div>
                           </div>
                     </div>
@@ -81,8 +89,7 @@
                             <img src="./assets/images/set-lata-negro.avif" class="card-img-top" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">SET LATAS LITROGRAFIADO</h5>
-                              <p class="card-text">Texto informativo!!!</p>
-                              <a href="./pages/productos.html" class="btn btn-primary">Ver producto</a>
+                              <p class="card-text">Latas estampadas para que combines con tu mate favorito! Incluye latas yerbera y azucarera estampadas en litografía, con pico vertedor.</p>
                             </div>
                           </div>
                     </div>
@@ -90,12 +97,16 @@
                         <div class="card w-100 card-border mb-5">
                             <img src="./assets/images/termo-uruguayo.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title">TERMO URUGUAYO</h5>
-                              <p class="card-text">Texto informativo!!!</p>
-                              <a href="./pages/productos.html" class="btn btn-primary">Ver producto</a>
+                              <h5 class="card-title">TERMO MEDIA MANIJA URUGUAYO</h5>
+                              <p class="card-text">Termo media manija de acero inoxidable GRABADO. Incluye tapa antiderrame con pico cebador.
+
+                            </p>
                             </div>
                           </div>
                     </div>
+                </div>
+                <div class="row">
+                    <a href="./pages/productos.html" class="btn btn-dark text-center">VER TODOS LOS PRODUCTOS</a>
                 </div>
             </div>
         </div>
@@ -103,16 +114,8 @@
 
 
     <footer>
-        <div class="p 5" id="footer">
-            <div class="container w-50 pt-5">
-                <div class="row">
-                    <div class="col">
-                        <a href="">
-                            <button></button>
-                        </a>
-                    </div>
-                </div>
-            </div>
+        <div class="container-fluid bg-light text-center p-3">
+            <p class="small">Todos los derechos reservados :: Osho Regalos :: Argentina 2020</p>
         </div>
     </footer>
     
