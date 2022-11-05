@@ -19,10 +19,11 @@
 
 #fondo-osho {
   background-color: #F3C5DF;
-  color: white; }
+  color: black; }
 
 #fondo-osho-light {
-  background-color: #FDE0F0; }
+  background-color: #FDE0F0;
+  color: black; }
 
 div ul li a:hover {
   color: white !important; }
@@ -30,6 +31,25 @@ div ul li a:hover {
 #centrar {
   text-align: center;
   align-items: center; }
+
+.ibody {
+  background-color: #FDE0F0;
+  margin: 30px auto;
+  padding: 26px; }
+
+.jumbotron {
+  padding: 16px; }
+
+.jumbotron h1 {
+  font-size: 36px;
+  text-align: center; }
+
+.btnIS {
+  border: solid 10px white;
+  border-radius: 20px; }
+
+.btnIS:hover {
+  background-color: #F3C5DF !important; }
 
 /*  FOOTER  */
 #footer-redes-color {

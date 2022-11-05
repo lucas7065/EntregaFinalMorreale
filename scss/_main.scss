@@ -1,33 +1,55 @@
-.card-border{
+.card-border {
     border: solid 10px white;
     border-radius: 20px;
     overflow: hidden;
-    transition: all ease-out 0.2s;
-}
-
-.card-border:hover{
-    transform: scale(1.05);
-}
-
-#titulos{
+    transition: all ease-out 0.2s; }
+  
+  .card-border:hover {
+    transform: scale(1.05); }
+  
+  #titulos {
     background-color: black;
-    color: white;
-}
-
-#fondo-osho{
+    color: white; }
+  
+  #fondo-osho {
     background-color: #F3C5DF;
-    color: white;
-}
-
-#fondo-osho-light{
+    color: black; }
+  
+  #fondo-osho-light {
     background-color: #FDE0F0;
-}
-
-div ul li a:hover{
-    color: white !important;
-}
-
-#centrar{
+    color: black;
+  }
+  
+  div ul li a:hover {
+    color: white !important; }
+  
+  #centrar {
     text-align: center;
-    align-items: center;
-}
+    align-items: center; }
+  
+  
+  .ibody{
+    background-color: #FDE0F0;
+    margin: 30px auto;
+    padding: 26px;
+  }  
+  
+  .jumbotron{
+    padding: 16px;
+  }
+  
+  .jumbotron h1{
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  .btnIS{
+    border: solid 10px white;
+    border-radius: 20px;
+  
+  }
+  
+  .btnIS:hover{
+    background-color: #F3C5DF !important;
+  }
+  
